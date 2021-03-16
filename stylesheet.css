@@ -1,0 +1,60 @@
+
+   
+   @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+   
+
+  body {
+      font-family: 'Lato', Helvetica, sans-serif;
+  }
+  img {
+    border: 5px solid #555;
+  }
+   
+   .header {
+    float: left;
+    top: 20px;
+    left:20px;
+    padding: lem;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    }
+    
+    .venicetext {
+    margin-left:1%;
+          
+}
+    table, th, td {
+        border: 1px solid black;
+    }
+    .containerhistorical {
+    margin-top: 5%; 
+    }       
+  
+
+    .containerdistrict, .containeriziko, .containerlodge  {
+        display: flex;
+    } 
+        @media(min-width:600px) {
+        .headercontainer {
+            display: flex;
+        }
+    }  
+         @media(min-width:600px) {
+    .containerhistorical {
+        display:flex;
+    }
+}
+
+        @media(min-width:600px) {
+    .citycontainer {
+        display:flex;
+    }
+}
+
+    
+
+
+
+    
+    
