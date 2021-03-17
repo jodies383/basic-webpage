@@ -7,30 +7,49 @@
       font-family: 'Lato', Helvetica, sans-serif;
   }
   img {
-    border: 5px solid #555;
+    border: 5px solid #B6AEAD ;
   }
+
    
-   .header {
-    float: left;
-    top: 20px;
-    left:20px;
-    padding: lem;
-    width: 200px;
-    height: 100px;
-    margin: auto;
-    }
-    
+   
     .venicetext {
     margin-left:1%;
           
 }
+.cityheading {
+    text-align: center;
+}
+.table {
+    text-align: center;
+}
+.historicalheading {
+    text-align: center;
+}
     table, th, td {
         border: 1px solid black;
     }
+    table {
+        border-collapse: collapse;
+      }
     .containerhistorical {
     margin-top: 5%; 
     }       
-  
+    .headercontainer {
+        display: flex;
+        margin: auto;
+        width: 50%;
+        padding: 1%;
+    }
+    .districtsix{
+        margin-right: 5%;
+    }
+    .iziko {
+        margin-right: 5%;
+    }
+    .slavelodge {
+        margin-right: 5%;
+        margin-left: 1%;
+    }
 
     .containerdistrict, .containeriziko, .containerlodge  {
         display: flex;
