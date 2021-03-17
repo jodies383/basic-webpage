@@ -40,15 +40,22 @@
         width: 50%;
         padding: 1%;
     }
+    .header {
+        margin-right: 5%;
+        margin-top: 15%;
+    }
     .districtsix{
         margin-right: 5%;
+        margin-top: 15%;
     }
     .iziko {
         margin-right: 5%;
+        margin-top: 15%;
     }
     .slavelodge {
         margin-right: 5%;
         margin-left: 1%;
+        margin-top: 15%;
     }
 
     .containerdistrict, .containeriziko, .containerlodge  {
