@@ -5,6 +5,9 @@
 
   body {
       font-family: 'Lato', Helvetica, sans-serif;
+      margin: 2%;
+      
+    
   }
   img {
     border: 5px solid #B6AEAD ;
@@ -31,9 +34,7 @@
     table {
         border-collapse: collapse;
       }
-    .containerhistorical {
-    margin-top: 5%; 
-    }       
+         
     .headercontainer {
         display: flex;
         margin: auto;
@@ -44,42 +45,45 @@
         margin-right: 5%;
         margin-top: 15%;
     }
-    .districtsix{
-        margin-right: 5%;
-        margin-top: 15%;
+    
+    .containerdistrict {
+        padding: 2%;
     }
-    .iziko {
-        margin-right: 5%;
-        margin-top: 15%;
+    .containeriziko {
+        padding: 2%;
     }
-    .slavelodge {
-        margin-right: 5%;
-        margin-left: 1%;
-        margin-top: 15%;
+    .containerlodge {
+        padding: 2%;
     }
-
-    .containerdistrict, .containeriziko, .containerlodge  {
-        display: flex;
-    } 
         @media(min-width:600px) {
         .headercontainer {
             display: flex;
-        }
-    }  
-         @media(min-width:600px) {
+        }   
+
     .containerhistorical {
         display:flex;
     }
-}
-
-        @media(min-width:600px) {
     .citycontainer {
         display:flex;
     }
-}
 
+.districttext {
+        float: left;
+    }
+
+    .districtsix {
+        float: right;
+        
+    }
+      .slavelodge {
+        float: right;
+        
+    }
+    .iziko {
+        float: right;
+    }
     
-
+        }
 
 
     

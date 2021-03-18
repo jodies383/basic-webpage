@@ -241,13 +241,37 @@ p {
     display: block;
   }
 }
-
+.name {
+  text-align: center;
+  padding-top: 5%;
+}
+.districtimg {
+  padding-top: 12%;
+}
+.izikoimg {
+  padding-top: 12%;
+} 
+.lodgeimg {
+  padding-top: 12%;
+}
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
     width: 75%;
     max-width: 60rem;
   }
+  .venicepic {
+    float: left;
+    width: 100%;
+  }
+  .venice-text {
+    float: right;
+    width: auto;
+    
+  }
+
 }
+
+
 table, th, td {
   border: 1px solid black;
   text-align: center;
@@ -258,3 +282,4 @@ table {
 h2 {
  text-align: center; 
 }
+
