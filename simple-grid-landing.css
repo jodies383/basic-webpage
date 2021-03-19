@@ -248,6 +248,3 @@ p {
     max-width: 60rem;
   }
 }
-table, th, td {
-  border: 1px solid black;
-}

@@ -241,6 +241,15 @@ p {
     display: block;
   }
 }
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .container {
+    width: 75%;
+    max-width: 60rem;
+  }
+
+}
+
 .name {
   text-align: center;
   padding-top: 5%;
@@ -254,23 +263,6 @@ p {
 .lodgeimg {
   padding-top: 12%;
 }
-@media only screen and (min-width: 60em) { /* 960px */
-  .container {
-    width: 75%;
-    max-width: 60rem;
-  }
-  .venicepic {
-    float: left;
-    width: 100%;
-  }
-  .venice-text {
-    float: right;
-    width: auto;
-    
-  }
-
-}
-
 
 table, th, td {
   border: 1px solid black;
@@ -282,4 +274,5 @@ table {
 h2 {
  text-align: center; 
 }
+
 

@@ -71,20 +71,11 @@
         float: left;
     }
 
-    .districtsix {
+    .districtsix, .slavelodge, .iziko {
         float: right;
         
     }
-      .slavelodge {
-        float: right;
-        
-    }
-    .iziko {
-        float: right;
-    }
-    
-        }
-
+}
 
     
     
