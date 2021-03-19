@@ -16,8 +16,14 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v748-toon-63_1_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=0218576ab2c1ab26490491735deeff4d');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
-
+img {
+  border: 5px solid #b6aead;
+}
 /* ROOT FONT STYLES */
 
 * {
@@ -253,15 +259,6 @@ p {
 .name {
   text-align: center;
   padding-top: 5%;
-}
-.districtimg {
-  padding-top: 12%;
-}
-.izikoimg {
-  padding-top: 12%;
-} 
-.lodgeimg {
-  padding-top: 12%;
 }
 
 table, th, td {

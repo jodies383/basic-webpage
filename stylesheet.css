@@ -6,6 +6,10 @@
   body {
       font-family: 'Lato', Helvetica, sans-serif;
       margin: 2%;
+      background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v748-toon-63_1_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=0218576ab2c1ab26490491735deeff4d');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
       
     
   }
@@ -55,7 +59,7 @@
     .containerlodge {
         padding: 2%;
     }
-        @media(min-width:600px) {
+        @media(min-width:800px) {
         .headercontainer {
             display: flex;
         }   
@@ -67,15 +71,14 @@
         display:flex;
     }
 
-.districttext {
-        float: left;
-    }
 
-    .districtsix, .slavelodge, .iziko {
-        float: right;
-        
-    }
 }
 
-    
+.containerdistrict, .containeriziko, .containerlodge{
+    display: flex;
+}
+.districtsix, .iziko, .slavelodge {
+    padding-top: 20%;
+    padding-right: 5%;
+}
     
